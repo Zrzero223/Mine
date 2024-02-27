@@ -1,0 +1,106 @@
+
+body{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    background-color: black;
+}
+
+.header{
+    background-color: black;
+    text-align: center;
+    padding: 20px;
+}
+
+.topnav{
+    overflow: hidden;
+    background-color: darkgray;
+}
+
+.topnav a{
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.topnav a:hover{
+    background-color: black;
+    color: aliceblue;
+}
+
+h1{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: bold;
+    color:crimson;
+}
+
+h2{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+    font-style:italic;
+    color: goldenrod;
+}
+
+h3{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    color:aliceblue;
+}
+
+p{
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color:darkgray;
+}
+
+p1{
+    text-align: center;
+    max-width: 500px;
+    margin:auto;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    color:aliceblue;
+}
+
+.column{
+    float:left;
+    width: 33.33%;
+    padding: 15px;
+}
+
+.row::after{
+    content:"";
+    display: table;
+    clear: both;
+}
+
+@media screen and (max-width:600px) {
+    .column {
+        width: 100%;
+    }
+}
+
+.footer{
+    background-color: darkgray;
+    text-align: center;
+    padding: 10px;
+}
+
+.wrapper{
+    margin-right: auto;
+    margin-left: auto;
+
+    max-width: 960px;
+
+    padding-right: 10px;
+    padding-left: 10px;
+}
